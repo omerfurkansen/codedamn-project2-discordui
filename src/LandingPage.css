@@ -1,0 +1,295 @@
+#blackButton {
+	background-color: #23272a;
+	color: #ffffff;
+	transition: all 0.2s ease-in-out;
+}
+
+#blackButton:hover {
+	background-color: #363f49d0;
+}
+
+#header {
+	display: flex;
+	justify-content: center;
+	height: 80px;
+	background-color: #404eed;
+}
+
+#header .container {
+	z-index: 1;
+	width: 1200px;
+	color: #ffffff;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.logo {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 150px;
+	cursor: pointer;
+}
+
+#header .container #navigations {
+	display: flex;
+	width: 500px;
+	justify-content: space-between;
+}
+
+#header .container #loginDiv {
+	display: flex;
+	justify-content: flex-end;
+	width: 150px;
+}
+
+#landingTopBgElements {
+	background-color: #404eed;
+	display: flex;
+	justify-content: center;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 630px;
+}
+
+#landingTopBgElements .container {
+	width: 3000px;
+	background-color: #404eed;
+	background-image: url(assets/center_bg_landing_header.svg);
+	background-position: bottom;
+	background-repeat: no-repeat;
+}
+
+#landingTopBgElements .container #LeftPartBg {
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	margin-left: -1030px;
+	width: 680px;
+}
+
+#landingTopBgElements .container #RightPartBg {
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	margin-left: 370px;
+	width: 620px;
+}
+
+#landingTop {
+	height: 550px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#landingTop #infoBox {
+	z-index: 1;
+	height: 280px;
+	width: 800px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	padding-bottom: 50px;
+}
+
+#landingTop #infoBox *:not(button) {
+	text-align: center;
+	color: #ffffff;
+}
+
+#landingTop #infoBox p {
+	font-size: 20px;
+	line-height: 30px;
+}
+
+#landingTop #infoBox #buttons {
+	display: flex;
+	justify-content: space-between;
+	width: 620px;
+}
+
+#landingTop #infoBox #buttons button {
+	font-size: 20px;
+	padding: 15px 30px;
+}
+
+#landingRest .container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 1200px;
+}
+
+#landingRest .landingChildBox {
+	display: flex;
+	justify-content: center;
+	height: 670px;
+}
+
+#landingRest .landingChildBox .container div {
+	width: 380px;
+}
+
+#landingRest .landingChildBox .container * {
+	padding: 0 20px;
+}
+
+#landingRest .landingChildBox div h2 {
+	font-size: 52px;
+	font-family: WhitneySemiBold, Whitney, 'Helvetica Neue', Helvetica, Arial,
+		sans-serif;
+}
+
+#landingRest .landingChildBox div p {
+	margin-top: 20px;
+	font-size: 22px;
+	color: #23272aaf;
+	line-height: 30px;
+}
+
+#landingRest #fourthBox .container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 120px 100px;
+}
+
+#landingRest #fourthBox {
+	display: flex;
+	justify-content: center;
+}
+
+#landingRest #fourthBox div * {
+	text-align: center;
+}
+
+#landingRest #fourthBox h1 {
+	font-size: 40px;
+}
+
+#landingRest #fourthBox p {
+	width: 1000px;
+	margin-top: 20px;
+	font-size: 24px;
+	color: #23272aaf;
+}
+
+#landingRest #fourthBox #h2BackgroundBox {
+	width: 500px;
+	background-image: url(assets/tiny_stars_landing.svg);
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+}
+
+#landingRest #fourthBox #h2BackgroundBox h2 {
+	margin-top: 80px;
+	font-size: 32px;
+	font-family: Ginto, Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+#landingRest #fourthBox button {
+	background-color: #5865f2;
+	color: #ffffff;
+	fill: #ffffff;
+	font-size: 20px;
+	padding: 15px 30px;
+	margin-top: 40px;
+}
+
+#landingRest #fourthBox button:hover {
+	background-color: #5865f2c0;
+}
+
+#footer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #23272a;
+	color: #ffffff;
+	height: 510px;
+}
+
+#footer .container {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 1200px;
+	height: 380px;
+}
+
+#footer .container #footerUpper {
+	display: flex;
+	border-bottom: 1px solid #5865f2;
+	height: 294px;
+	padding: 12px 0;
+}
+
+#footer .container #footerUpper #footerFirstBox {
+	width: 300px;
+}
+
+#footer .container #footerUpper #footerFirstBox h1,
+#footer .container #footerUpper #footerFirstBox div {
+	margin-bottom: 20px;
+}
+
+#footer .container #footerUpper #footerFirstBox #flagAndCountry {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 120px;
+}
+
+#footer .container #footerUpper #footerFirstBox #socials {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 180px;
+}
+
+#footer .container #footerUpper #footerFirstBox #socials svg {
+	cursor: pointer;
+}
+
+#footer .container #footerUpper #footerRest {
+	display: flex;
+	justify-content: space-evenly;
+	flex: 1;
+	margin-left: 50px;
+}
+
+#footer .container #footerUpper #footerRest ul * {
+	line-height: 30px;
+}
+
+#footer .container #footerUpper #footerRest ul li {
+	width: 160px;
+}
+
+#footer .container #footerUpper #footerRest ul li:hover {
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+#footer .container #footerUpper #footerRest ul lh {
+	color: #5865f2;
+}
+
+#footer .container #footerBottom {
+	display: flex;
+	justify-content: space-between;
+}
+
+#footer .container #footerBottom #signUp {
+	background-color: #5865f2;
+	color: #ffffff;
+}
+
+#footer .container #footerBottom #signUp:hover {
+	background-color: #8790f0;
+}

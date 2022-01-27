@@ -1,0 +1,92 @@
+@font-face {
+	font-family: Ginto;
+	src: url('./assets/fonts/ginto.otf') format('opentype');
+}
+
+@font-face {
+	font-family: 'Helvetica Neue';
+	src: url('./assets/fonts/helvetica-neue.otf') format('opentype');
+}
+
+@font-face {
+	font-family: Whitney;
+	src: url('./assets/fonts/whitney.otf') format('opentype');
+}
+
+@font-face {
+	font-family: WhitneySemiBold;
+	src: url('./assets/fonts/whitneysemibold.otf') format('opentype');
+}
+
+@font-face {
+	font-family: Ginto Nord;
+	src: url('./assets/fonts/ginto-nord.otf') format('opentype');
+}
+
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+	}
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	outline: none;
+	font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+html,
+body {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+ul {
+	list-style: none;
+}
+
+h1 {
+	font-family: Ginto Nord, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+a {
+	cursor: pointer;
+	text-decoration: none;
+	color: #ffffff;
+	font-family: WhitneySemiBold, Whitney, 'Helvetica Neue', Helvetica, Arial,
+		sans-serif;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+button {
+	display: flex;
+	align-items: center;
+	cursor: pointer;
+	background-color: #ffffff;
+	color: #000000;
+	border-radius: 100px;
+	padding: 10px 15px;
+	border: none;
+	transition: all 0.2s ease-in-out;
+	font-family: WhitneySemiBold, Whitney, 'Helvetica Neue', Helvetica, Arial,
+		sans-serif;
+}
+
+button:hover {
+	color: #5865f2;
+	box-shadow: 0 5px 10px #00000071;
+	transition: all 0.2s ease-in-out;
+}
+
+/* For tablet devices */
+@media (max-width: 830px) {
+}
+
+/* For mobile devices */
+@media (max-width: 485px) {
+}

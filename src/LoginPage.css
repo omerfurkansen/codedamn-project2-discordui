@@ -1,0 +1,166 @@
+#loginPage {
+	height: 100vh;
+	user-select: none;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #5865f2;
+	background-image: url(assets/login_bg.svg);
+	background-size: auto 97%;
+	background-position: bottom;
+	background-repeat: no-repeat;
+}
+
+#loginPage #loginBox {
+	box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.541);
+	border-radius: 5px;
+	background-color: #36393f;
+	height: 335px;
+	width: 710px;
+	padding: 35px;
+	display: flex;
+	justify-content: space-between;
+	animation: fadeIn 0.5s;
+}
+
+#loginPage #loginBox #leftBox {
+	width: 415px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: #ffffff;
+}
+
+#loginPage #loginBox #leftBox #emailBox {
+	margin: 20px 0;
+}
+
+#loginPage #loginBox #leftBox #emailBox input,
+#loginPage #loginBox #leftBox #passwordBox input {
+	margin-top: 8px;
+}
+
+#loginPage #loginBox #leftBox #welcomeBack {
+	margin-bottom: 10px;
+	font-weight: 600;
+	letter-spacing: 0.4px;
+	font-family: Ginto, Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+#loginPage #loginBox #leftBox p,
+#loginPage #loginBox #leftBox div label {
+	color: #b9bbbe;
+}
+
+#loginPage #loginBox #leftBox div label {
+	font-family: Ginto, Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 11px;
+	font-weight: 600;
+	letter-spacing: 0.3px;
+}
+
+#loginPage #loginBox #leftBox div input {
+	border: 1px solid #202225;
+	border-radius: 3px;
+	width: 395px;
+	padding: 10px;
+	background-color: #2f3136;
+	color: #ffffff;
+	font-size: 16px;
+	transition: border 0.2s ease-in-out;
+}
+
+#loginPage #loginBox #leftBox div input:hover {
+	border: 1px solid #000000;
+	transition: border 0.2s ease-in-out;
+}
+
+#loginPage #loginBox #leftBox div input:focus {
+	border: 1px solid #00b0f4;
+	transition: border 0.2s ease-in-out;
+}
+
+#loginPage #loginBox #leftBox #authLoginBtn {
+	padding: 12px 0;
+	border: none;
+	border-radius: 3px;
+	background-color: #5865f2;
+	color: #ffffff;
+	width: 415px;
+	display: flex;
+	justify-content: center;
+	font-size: 16px;
+	margin: 20px 0 10px 0;
+}
+
+#loginPage #loginBox #leftBox #authLoginBtn:hover {
+	box-shadow: none;
+	background-color: #424cb9;
+}
+
+#loginPage #loginBox #leftBox span {
+	color: #72767d;
+}
+
+#loginPage #loginBox #leftBox a {
+	color: #00aff4;
+	text-decoration: none;
+	font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+#loginPage #loginBox #leftBox a:hover {
+	text-decoration: underline;
+}
+
+#loginPage #loginBox #leftBox .stickToLeft {
+	align-self: flex-start;
+	font-size: 14px;
+	margin-top: 5px;
+}
+
+#loginPage #loginBox #rightBox {
+	margin: 30px 0;
+	width: 240px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: #ffffff;
+}
+
+#loginPage #loginBox #rightBox #qrCode {
+	width: 155px;
+	padding: 10px;
+	background-color: #ffffff;
+	border-radius: 5px;
+}
+
+#loginPage #loginBox #rightBox svg {
+	position: absolute;
+	background-color: #000000;
+	border-radius: 50%;
+	border: 8px solid #ffffff;
+	width: 48px;
+	height: 48px;
+	transform: scale(0.5);
+	overflow: hidden;
+	bottom: 50%;
+	margin-left: 193px;
+	margin-bottom: 11px;
+	left: 50%;
+	padding: 10px;
+}
+
+#loginPage #loginBox #rightBox h2 {
+	font-family: Ginto, Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	padding-top: 30px;
+	font-size: 23px;
+	letter-spacing: 0.4px;
+	margin-bottom: 8px;
+}
+
+#loginPage #loginBox #rightBox p {
+	text-align: center;
+	color: #b9bbbe;
+}
